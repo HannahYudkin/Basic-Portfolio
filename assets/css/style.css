@@ -2,6 +2,10 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+  }
+  
 body {
     background-image: url("../images/xv.png");
     background-color: #cccccc;
@@ -25,9 +29,29 @@ h2 {
 }
 
 footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
 }
+
+.top-nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content{
+    background-color: white;
+    width: 920px;
+}
+
 
 .portrait{
     width: 25%;
