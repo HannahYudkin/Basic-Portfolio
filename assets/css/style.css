@@ -7,7 +7,7 @@ a:link {
     text-decoration: none;
     color: rgb(185, 184, 184);
   }
-
+ 
 a:visited {
     text-decoration: none;
     color: rgb(185, 184, 184);
@@ -130,6 +130,10 @@ p {
     position: relative;
     margin: 20px;
 }
+.portfolio-images:hover {
+    opacity: 60%
+}
+
 .portrait{
     width: 25%;
     height: 25%;
